@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@davidbodloza</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!--CDN-->
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">@davidbodloza</a></li>
+                    <li class="hideOnMobile"><a href="../index.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="../public/skills.html" class="active">Skills</a></li>
+                    <li class="hideOnMobile"><a href="../public/projects.html">Projects</a></li>
+                    <li class="hideOnMobile"><a href="./about.html">About</a></li>
+                    <li class="hideOnMobile"><a href="#">Contact</a></li>
+                    <li onclick="showSidebar()" class="hamburger"><a href="#">&#9776;</a></li>
+                </ul>
+            </nav>
+            <!--Sidebar-->
+            <nav>
+                <ul class="sidebar">
+                    <li><a onClick="hideSidebar()" class="close_btn" href="#">&times;</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./skills.html" class="active">Skills</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="skills">
+                <div class="skills_header">
+                    <h1>My Skills</h1>
+                    <p>Here are some of the technologies I specialize in.</p>
+                </div>
+                <div class="skills_grid">
+                    <!-- Skill Card -->
+                    <div class="skill_card">
+                        <img src="../assets/icons/html.png " alt=" HTML">
+                        <h3>HTML</h3>
+                        <p>90%</p>
+                        <div class="progress_bar">
+                            <div class="progress html"></div>
+                        </div>
+                    </div>
+                    <div class="skill_card">
+                        <img src="../assets/icons/css.png" alt="CSS">
+                        <h3>CSS</h3>
+                        <p>85%</p>
+                        <div class="progress_bar">
+                            <div class="progress css"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill_card">
+                        <img src="../assets/icons/js.png" alt="JavaScript">
+                        <h3>JavaScript</h3>
+                        <p>75%</p>
+                        <div class="progress_bar">
+                            <div class="progress js"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill_card">
+                        <img src="../assets/icons/react.png" alt="React">
+                        <h3>React</h3>
+                        <p>65%</p>
+                        <div class="progress_bar">
+                            <div class="progress react"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <div class="footer-container">
+                <p>&copy; 2025 David Bodloza. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourgithub" target="_blank">
+                        <i class="devicon-github-original"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourlinkedin" target="_blank">
+                        <i class="devicon-linkedin-plain"></i>
+                    </a>
+                    <a href="mailto:youremail@example.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!--Back to top-->
+        <a href="#" class="to-top">
+            <img src="../assets/icons/up.png" alt="scroll-up">
+        </a>
+    </div>
+    <!--Javascript-->
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
